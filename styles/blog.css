@@ -1,0 +1,56 @@
+.blog {
+  @apply mt-[96px] py-20;
+}
+
+.blog-container {
+  @apply max-w-screen-xl mx-auto px-6;
+}
+
+.blog-container__heading {
+  @apply text-xl uppercase font-semibold text-orange-500 mb-3 sm:mt-5;
+}
+
+.blog-row {
+  @apply flex flex-wrap -mx-3;
+}
+
+.blog-column {
+  @apply w-full px-3 py-7  relative xl:w-6/12 sm:w-6/12;
+}
+
+.blog-content {
+  @apply after:absolute after:h-[2px] after:left-[50%] after:-translate-x-[50%]  after:bottom-0 after:w-[50%] hover:after:bg-orange-500
+  hover:transition-all hover:duration-500;
+}
+
+.blog-content__picture {
+  @apply relative pb-8 h-[374px];
+}
+
+.blog-content__picture a {
+  @apply after:absolute after:top-0 after:left-0 after:w-full after:h-full hover:after:transition-all hover:after:duration-300 hover:after:bg-white hover:after:opacity-30;
+}
+
+.blog-content__picture a img {
+  @apply w-full h-full object-cover rounded-md;
+}
+
+.blog-info {
+  @apply text-center;
+}
+
+.blog-info__cate {
+  @apply uppercase font-rubik text-lg text-[#83868c];
+}
+
+.blog-info__title a {
+  @apply block pt-1 capitalize font-semibold text-xl relative pb-3 mb-3 hover:text-orange-500 hover:transition-all hover:duration-300 after:absolute after:bottom-[0] after:left-[50%] after:-translate-x-[50%] after:h-[1px] after:bg-[#ffb503] after:w-[50px];
+}
+
+.blog-info__description {
+  @apply text-base text-[#9b918c];
+}
+
+.blog-info__btn a {
+  @apply mt-[30px] inline-block font-semibold py-[15px] px-[20px] bg-orange-500 text-white capitalize rounded-md hover:text-black hover:transition-all hover:duration-300;
+}
