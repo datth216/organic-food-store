@@ -1,0 +1,59 @@
+.testimonials {
+  @apply mt-[96px] bg-gradient-to-b from-green-100/60 to-transparent py-20;
+}
+
+.testimonials-container {
+  @apply max-w-screen-xl mx-auto px-6;
+}
+
+.testimonials-container__heading {
+  @apply text-xl uppercase font-semibold text-orange-500 mb-3 sm:mt-5;
+}
+
+.testimonials-slider {
+  @apply flex -m-3;
+}
+
+.testimonials-item {
+  @apply p-3;
+}
+
+.testimonials-info {
+  @apply bg-white shadow-lg rounded-xl;
+}
+
+.testimonials-info__avatar {
+  @apply mx-auto my-0 p-3;
+}
+
+.testimonials-info__avatar > img {
+  @apply rounded-full w-[88px] h-[88px] object-cover mx-auto;
+}
+
+.testimonials-content {
+  @apply px-5 pb-5;
+}
+
+.testimonials-content__name {
+  @apply mb-3 font-bold capitalize;
+}
+
+.testimonials-content__paragraph {
+  @apply mb-5 text-base;
+}
+
+.slick-dots {
+  @apply flex justify-center;
+}
+
+.slick-dots li {
+  @apply mx-2;
+}
+
+.slick-dots li button {
+  @apply w-2 h-2 bg-[#e0e0e0] border-none rounded-[50%] text-[0px];
+}
+
+.slick-slider .slick-dots .slick-active button {
+  @apply bg-orange-500;
+}
