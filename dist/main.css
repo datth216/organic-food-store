@@ -1385,7 +1385,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   object-fit: cover;
 }
 
-.loader {
+/* .loader {
   position: fixed;
   top: 0px;
   right: 0px;
@@ -1404,7 +1404,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .loader__element {
   height: 60px;
   width: 60px;
-}
+} */
 
 @-webkit-keyframes spin {
   to {
