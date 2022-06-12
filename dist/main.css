@@ -475,22 +475,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia: ;
 }
 
-@import "./styles/header.css";
-
-@import "./styles/navbar.css";
-
-@import "./styles/category.css";
-
-@import "./styles/featured.css";
-
-@import "./styles/blog.css";
-
-@import "./styles/footer.css";
-
-@import "./styles/loader.css";
-
-@import "./styles/testimonial.css";
-
 .right-0 {
   right: 0px;
 }
@@ -512,3 +496,5 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 40px;
   }
 }
+
+@import "./styles/header.css";
