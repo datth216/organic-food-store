@@ -1,59 +1,112 @@
 .testimonials {
-  @apply mt-[96px] bg-gradient-to-b from-green-100/60 to-transparent py-20;
+  margin-top: 96px;
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(220 252 231 / 0.6);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(220 252 231 / 0));
+  --tw-gradient-to: transparent;
+  padding-top: 5rem;
+  padding-bottom: 5rem
 }
 
 .testimonials-container {
-  @apply max-w-screen-xl mx-auto px-6;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
 }
 
 .testimonials-container__heading {
-  @apply text-xl uppercase font-semibold text-orange-500 mb-3 sm:mt-5;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity))
+}
+
+@media (min-width: 640px) {
+  .testimonials-container__heading {
+    margin-top: 1.25rem
+  }
 }
 
 .testimonials-slider {
-  @apply flex -m-3;
+  margin: -0.75rem;
+  display: flex
 }
 
 .testimonials-item {
-  @apply p-3;
+  padding: 0.75rem
 }
 
 .testimonials-info {
-  @apply bg-white shadow-lg rounded-xl;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
 }
 
 .testimonials-info__avatar {
-  @apply mx-auto my-0 p-3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0.75rem
 }
 
 .testimonials-info__avatar > img {
-  @apply rounded-full w-[88px] h-[88px] object-cover mx-auto;
+  margin-left: auto;
+  margin-right: auto;
+  height: 88px;
+  width: 88px;
+  border-radius: 9999px;
+  -o-object-fit: cover;
+     object-fit: cover
 }
 
 .testimonials-content {
-  @apply px-5 pb-5;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem
 }
 
 .testimonials-content__name {
-  @apply mb-3 font-bold capitalize;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  text-transform: capitalize
 }
 
 .testimonials-content__paragraph {
-  @apply mb-5 text-base;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem
 }
 
 .slick-dots {
-  @apply flex justify-center;
+  display: flex;
+  justify-content: center
 }
 
 .slick-dots li {
-  @apply mx-2;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem
 }
 
 .slick-dots li button {
-  @apply w-2 h-2 bg-[#e0e0e0] border-none rounded-[50%] text-[0px];
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 224 224 / var(--tw-bg-opacity));
+  font-size: 0px
 }
 
 .slick-slider .slick-dots .slick-active button {
-  @apply bg-orange-500;
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity))
 }
