@@ -497,4 +497,4 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@import "./styles/header.css";
+@import "../dist/styles/header.css";
