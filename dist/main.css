@@ -476,7 +476,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .right-0 {
-  right: 0px;
+  right: 0px !important;
 }
 
 .mt-1 {
